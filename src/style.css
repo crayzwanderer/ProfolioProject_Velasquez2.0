@@ -1,0 +1,14 @@
+.sectiontwo {
+  background-color: #402a23; /* set your desired background color here */
+  width: 1750px;
+  height: 300px;
+  opacity: 0.13;
+}
+
+.border {
+  outline: 8px ridge #402a23 (170, 50, 220, 0.6);
+  outline-style: inset;
+  border-radius: 5px;
+  padding: 150px;
+  box-shadow: 10px 10px 10px black;
+}
