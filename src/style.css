@@ -11,4 +11,25 @@
   border-radius: 5px;
   padding: 150px;
   box-shadow: 10px 10px 10px black;
+  width: 500px;
+}
+.center {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+.weathertext {
+  padding-top: 110px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+.small-weather-app-pic {
+  padding-right: 40px;
+}
+.weatherlink {
+  text-decoration: none;
+}
+.custom-btn :hover {
+  color: rgb(117, 219, 233);
 }
