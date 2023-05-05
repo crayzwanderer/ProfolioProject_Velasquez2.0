@@ -1,3 +1,7 @@
+nav {
+  width: 100vh;
+}
+
 .sectiontwo {
   background-color: #402a23; /* set your desired background color here */
   width: 1750px;
@@ -9,7 +13,7 @@
   outline: 8px ridge #402a23 (170, 50, 220, 0.6);
   outline-style: inset;
   border-radius: 5px;
-  padding: 150px;
+  padding: 3px;
   box-shadow: 10px 10px 10px black;
   width: 500px;
 }
@@ -25,11 +29,14 @@
   text-align: center;
 }
 .small-weather-app-pic {
-  padding-right: 40px;
+  padding: 6em;
 }
 .weatherlink {
   text-decoration: none;
 }
 .custom-btn :hover {
   color: rgb(117, 219, 233);
+}
+.weatherimg2 {
+  margin: 5px;
 }
