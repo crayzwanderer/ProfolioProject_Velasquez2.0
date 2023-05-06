@@ -15,6 +15,7 @@ img.small-weather-app-pic {
   margin-bottom: 25px;
   box-shadow: 10px 5px 5px black;
 }
+
 @media (max-width: 576px) {
   .weatherimg {
     margin-top: 30px;
@@ -23,7 +24,7 @@ img.small-weather-app-pic {
     color: orange;
     display: flex;
     margin: 15;
-    margin-left: 333px;
+    margin-left: 300px;
     margin-top: -50px;
     padding: 10px;
   }
@@ -54,6 +55,7 @@ img.small-weather-app-pic {
   button.navbar-toggler {
     color: palegoldenrod;
   }
+
   .collapse navbar-collapse;
   .logoimg {
     display: flex;
@@ -63,9 +65,5 @@ img.small-weather-app-pic {
     margin: 0 auto;
     display: flex;
     padding: 30px;
-    box-shadow: 10px 5px 5px black;
-  }
-  button {
-    margin-top: -10px;
   }
 }
