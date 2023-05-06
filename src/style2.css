@@ -23,12 +23,12 @@ img.small-weather-app-pic {
     color: orange;
     display: flex;
     margin: 15;
-    margin-left: 285px;
-    margin-top: -60px;
+    margin-left: 235px;
+    margin-top: -50px;
     padding: 10px;
   }
   img.logoimg {
-    margin-left: 29px;
+    margin-left: 80px;
   }
   .navbar-brand {
     color: green;
