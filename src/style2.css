@@ -10,6 +10,9 @@
     margin-top: -60px;
     padding: 10px;
   }
+  img.logoimg {
+    margin-left: 29px;
+  }
   .navbar-brand {
     color: green;
   }
