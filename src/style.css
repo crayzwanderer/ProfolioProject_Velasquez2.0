@@ -107,3 +107,11 @@ button.custom-button a {
 .emailicon {
   padding-top: 12px;
 }
+@media (max-width: 576px) {
+  .small-weather-app-pic {
+    width: 30px;
+  }
+  nav {
+    justify-content: center;
+  }
+}
