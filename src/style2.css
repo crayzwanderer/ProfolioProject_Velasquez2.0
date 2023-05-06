@@ -1,0 +1,41 @@
+@media (max-width: 576px) {
+  .weatherimg {
+    margin-top: 55px;
+  }
+  .navbar-toggler {
+    color: orange;
+    display: flex;
+    margin: 15;
+    margin-left: 285px;
+    margin-top: -60px;
+    padding: 5px;
+  }
+  .navbar-brand {
+    color: green;
+  }
+  .navbar {
+    color: red;
+  }
+  .container-fluid {
+    color: purple;
+  }
+  .navbar-toggler-icon {
+    color: blue;
+  }
+  .collapse navbar-collapse {
+    color: pink;
+  }
+  .span.navbar {
+    color: brown;
+  }
+  span-navbar-toggler-icon {
+    color: orangered;
+  }
+  button.navbar-toggler {
+    color: palegoldenrod;
+  }
+  .collapse navbar-collapse;
+  .logoimg {
+    display: flex;
+  }
+}
