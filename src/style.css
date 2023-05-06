@@ -72,3 +72,35 @@ nav {
 .container {
   margin-top: -90px;
 }
+.custom-button {
+  background-color: #84aaa3;
+  border: none;
+  border-radius: 20px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 15px;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease;
+  margin-top: 25px;
+}
+
+.custom-button span {
+  flex: 1;
+  margin-top: -3px;
+}
+button.custom-button a {
+  text-decoration: none;
+  color: white;
+}
+
+.custom-button i {
+  margin-left: 18px;
+  margin-top: 5px;
+}
+
+.custom-button:hover {
+  background-color: #487b65;
+}
