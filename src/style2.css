@@ -1,7 +1,21 @@
 .weatherappsection {
   padding-top: 50px;
 }
-
+img.small-weather-app-pic {
+  margin-top: -20px;
+}
+.weatherappsection {
+  border: solid #487b65;
+  padding: 50px;
+  margin-bottom: 25px;
+  box-shadow: 10px 5px 5px black;
+}
+.firstsection {
+  border: solid #487b65;
+  padding: 50px;
+  margin-bottom: 25px;
+  box-shadow: 10px 5px 5px black;
+}
 @media (max-width: 576px) {
   .weatherimg {
     margin-top: 30px;
@@ -49,7 +63,7 @@
     border: 1px solid #487b65;
     margin: 0 auto;
     display: flex;
-    padding: 50px;
+    padding: 30px;
     box-shadow: 10px 5px 5px black;
   }
   button {
