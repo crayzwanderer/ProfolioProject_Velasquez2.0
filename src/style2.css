@@ -60,10 +60,4 @@ img.small-weather-app-pic {
   .logoimg {
     display: flex;
   }
-  .weatherappsection {
-    border: 1px solid #487b65;
-    margin: 0 auto;
-    display: flex;
-    padding: 30px;
-  }
 }
