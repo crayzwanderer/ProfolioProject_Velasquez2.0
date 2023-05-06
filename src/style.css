@@ -49,8 +49,8 @@ nav {
 }
 .weatherimg2 {
   margin: 5px;
-  padding-top: 5px;
-  padding-bottom: 15px;
+  padding-top: 2px;
+  padding-bottom: 25px;
 }
 .mepic {
   margin-left: 28px;
@@ -59,7 +59,7 @@ nav {
   padding: 50px;
 }
 .colortext {
-  color: #a55233;
+  color: #f78736;
 }
 .ptext {
   max-width: 400px;
@@ -73,18 +73,18 @@ nav {
   margin-top: -90px;
 }
 .custom-button {
-  background-color: #84aaa3;
   border: none;
-  border-radius: 20px;
-  color: #fff;
+  border-radius: 3px;
+  color: rgb(247, 135, 54);
   cursor: pointer;
   display: inline-flex;
-  font-size: 20px;
+  font-size: 15px;
   font-weight: bold;
-  padding: 15px;
+  padding: 5px;
   text-transform: uppercase;
   transition: background-color 0.3s ease;
   margin-top: 25px;
+  outline: solid rgb(247, 135, 54);
 }
 
 .custom-button span {
@@ -93,7 +93,7 @@ nav {
 }
 button.custom-button a {
   text-decoration: none;
-  color: white;
+  color: black;
 }
 
 .custom-button i {
@@ -103,4 +103,7 @@ button.custom-button a {
 
 .custom-button:hover {
   background-color: #487b65;
+}
+.emailicon {
+  padding-top: 12px;
 }
