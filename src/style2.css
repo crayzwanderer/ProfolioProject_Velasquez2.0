@@ -1,15 +1,14 @@
 .weatherappsection {
   padding-top: 50px;
-}
-img.small-weather-app-pic {
-  margin-top: -20px;
-}
-.weatherappsection {
   border: solid #487b65;
   padding: 50px;
   margin-bottom: 25px;
   box-shadow: 10px 5px 5px black;
 }
+img.small-weather-app-pic {
+  margin-top: -20px;
+}
+
 .firstsection {
   border: solid #487b65;
   padding: 50px;
