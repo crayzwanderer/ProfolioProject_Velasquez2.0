@@ -14,7 +14,7 @@ p {
 .bold {
   font-weight: 800px;
   color: #f78736;
-  margin-bottom: -25px;
+  margin-bottom: 25px;
 }
 .restoftext {
   text-align: center;
@@ -61,7 +61,13 @@ p {
   margin: 0 auto;
 }
 
+.secondpicofme {
+  display: none;
+}
 @media (max-width: 576px) {
+  div.container-fluid {
+    display: none;
+  }
   h1 {
     margin-top: 20px;
   }
