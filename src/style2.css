@@ -15,6 +15,9 @@ img.small-weather-app-pic {
   margin-bottom: 25px;
   box-shadow: 10px 5px 5px black;
 }
+#text {
+  text-align: center;
+}
 
 @media (max-width: 576px) {
   .weatherimg {
