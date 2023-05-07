@@ -79,6 +79,9 @@ p {
   img.logoimg {
     margin-left: -90px;
   }
+  p {
+    margin: 50px;
+  }
 }
 @media (max-width: 992px) {
   p {
