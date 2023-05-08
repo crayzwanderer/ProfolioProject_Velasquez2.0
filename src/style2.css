@@ -14,6 +14,11 @@
   color: #1c1c1e;
   text-shadow: 1px 1px #84aaa3;
 }
+.smalltext {
+  font-size: 15px;
+  color: gainsboro;
+  font-weight: 400;
+}
 
 .weatherappsection {
   padding-top: 50px;
