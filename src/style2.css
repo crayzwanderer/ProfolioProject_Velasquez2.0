@@ -7,6 +7,13 @@
 .center {
   text-align: center;
 }
+.pictext {
+  font-family: "Montserrat", sans-serif;
+  font-size: 34px;
+  font-weight: bold;
+  color: #1c1c1e;
+  text-shadow: 1px 1px #84aaa3;
+}
 
 .weatherappsection {
   padding-top: 50px;
