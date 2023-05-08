@@ -1,3 +1,13 @@
+.projectpic {
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  height: 400px;
+  width: 700px;
+}
+.center {
+  text-align: center;
+}
+
 .weatherappsection {
   padding-top: 50px;
   border: solid #487b65;
