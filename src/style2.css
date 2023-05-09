@@ -97,6 +97,22 @@ h2 {
   padding-top: 45px;
   padding-bottom: 25px;
 }
+.footeremail {
+  font-size: 35px;
+  margin-top: -60px;
+}
+div.social-links {
+  margin-top: -99px;
+}
+i {
+  margin: 20px;
+  font-size: 45px;
+  color: #487b65;
+}
+i:hover {
+  color: orange;
+  cursor: pointer;
+}
 
 @media (max-width: 576px) {
   h1 {
