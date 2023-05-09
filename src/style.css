@@ -2,6 +2,7 @@ nav {
   width: 100vh;
   margin-bottom: -40px;
 }
+
 h1 {
   text-align: center;
   padding-bottom: 20px;
@@ -37,10 +38,10 @@ p {
   padding-top: 2px;
   padding-bottom: 25px;
 }
-.mepic {
-  margin-top: 90px;
-  box-shadow: 20px 20px 20px rgb(117, 219, 233);
-  padding: 50px;
+div.upperboxes {
+  width: 400px;
+  height: 400px;
+  color: #f78736;
 }
 .colortext {
   color: #f78736;
@@ -63,6 +64,9 @@ p {
 
 .secondpicofme {
   display: none;
+}
+.oatmealpic {
+  width: 1600px;
 }
 @media (max-width: 576px) {
   div.container-fluid {

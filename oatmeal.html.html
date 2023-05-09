@@ -30,7 +30,12 @@
         text-align: left;
         margin-left: 30px;
       }
+
       .logoimg {
+        margin-top: 15px;
+        margin-left: 40px;
+      }
+      .logoimg2 {
         margin-top: 15px;
       }
       .oatmeal {
@@ -46,7 +51,10 @@
       }
       .oatmealtext {
         margin: 25px;
-        font-size: 11px;
+        font-size: 14px;
+        text-align: left;
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
       }
       .by {
         margin-top: 20px;
@@ -55,13 +63,45 @@
     </style>
   </head>
   <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><img
+            href="index.html"
+            class="logoimg"
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/071/332/original/blacklogo.png?1678672532"
+            width="45px;"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="index.html"
+              >Home</a
+            >
+            <a class="nav-link" href="about.html">About</a>
+            <a class="nav-link" href="work.html">Projects</a>
+            <a class="nav-link disabled">Code</a>
+          </div>
+        </div>
+      </div>
+    </nav>
     <div class="d-flex justify-content-evenly">
       <div class="app">
         <div class="d-block justify-content-evenly">
           <div>
             <img
               href="index.html"
-              class="logoimg center"
+              class="logoimg2 center"
               src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/071/332/original/blacklogo.png?1678672532"
               width="45px;"
             />
@@ -90,7 +130,7 @@
             Try Apple Cinnamon Oatmeal
           </button>
           <div class="center by">
-            Coded By: <a href="https://www.example.com">Christina Velasquez</a>
+            Coded By: <a href="about.html">Christina Velasquez</a>
           </div>
         </div>
       </div>
