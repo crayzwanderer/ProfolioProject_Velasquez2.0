@@ -4,6 +4,8 @@ h2 {
 
 .center {
   text-align: center;
+  display: block;
+  margin: 0 auto;
 }
 .boxer {
   color: red;
@@ -80,6 +82,16 @@ div.d-flex.containerone {
 .aboutmepic {
   margin: 20px;
 }
+.work-container {
+  margin: 15px;
+}
+.WineTimepic {
+  margin: 25px;
+}
+.IphoneWeatherpic {
+  padding-top: 23px;
+  padding-bottom: 5px;
+}
 
 @media (max-width: 576px) {
   h1 {
@@ -116,6 +128,22 @@ div.d-flex.containerone {
   }
   .containertwo {
     text-align: center;
+  }
+  .WineTimepic {
+    padding-top: 10px;
+    display: block;
+    margin: 0 auto;
+    width: 120px;
+  }
+  .projectname {
+    display: none;
+  }
+  .builtwith {
+    display: none;
+  }
+  .IphoneWeatherpic {
+    margin-top: -18px;
+    width: 70px;
   }
   .navbar-brand {
     color: green;
