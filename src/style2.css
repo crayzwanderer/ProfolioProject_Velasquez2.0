@@ -92,6 +92,13 @@ div.d-flex.containerone {
   padding-top: 23px;
   padding-bottom: 5px;
 }
+.builtwith {
+  font-size: 12px;
+}
+.WeatherApppic {
+  padding-top: 45px;
+  padding-bottom: 25px;
+}
 
 @media (max-width: 576px) {
   h1 {
