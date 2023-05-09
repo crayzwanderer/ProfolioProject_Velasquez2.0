@@ -31,7 +31,7 @@ h2 {
   box-shadow: 10px 5px 5px black;
 }
 img.small-weather-app-pic {
-  margin-top: -20px;
+  margin-top: 290px;
 }
 
 .firstsection {
@@ -51,8 +51,44 @@ img.small-weather-app-pic {
 .envelope {
   padding-top: 30px;
 }
+.border {
+  margin: 5px;
+  height: 399px;
+  width: 400px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+}
+.containerone {
+  text-align: center;
+}
+div.d-flex.containerone {
+}
+
+.weatherimg {
+  display: block;
+  margin: 0 auto;
+}
+.oatmealimg {
+  display: block;
+  margin: 0 auto;
+}
+.oatmealimg {
+  margin-top: 85px;
+}
+.aboutcontainer {
+  display: block;
+  margin: 0 auto;
+
+  width: 878px;
+}
+.aboutmepic {
+  margin: 20px;
+}
 
 @media (max-width: 576px) {
+  h1 {
+    font-size: 17px;
+    padding-top: 25px;
+  }
   .weatherimg {
     margin-top: 30px;
   }
@@ -60,12 +96,29 @@ img.small-weather-app-pic {
     color: orange;
     display: flex;
     margin: 15;
-    margin-left: 300px;
-    margin-top: -50px;
+    margin-left: 360px;
+    margin-top: -60px;
     padding: 10px;
   }
+  a.nav-link {
+    margin-left: 40px;
+    margin-top: -5px;
+  }
   img.logoimg {
-    margin-left: 145px;
+    display: block;
+    margin: 0 auto;
+  }
+  .border {
+    margin: 45px;
+    height: 160px;
+    width: 160px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+  }
+  .containerone {
+    text-align: center;
+  }
+  .containertwo {
+    text-align: center;
   }
   .navbar-brand {
     color: green;
