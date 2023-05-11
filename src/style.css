@@ -116,4 +116,7 @@ div.upperboxes {
   img.small-weather-app-pic.mepic {
     display: none;
   }
+  body {
+    overflow-x: hidden;
+  }
 }
