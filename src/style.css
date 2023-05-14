@@ -1,3 +1,7 @@
+body {
+  overflow-x: hidden;
+}
+
 nav {
   width: 100vh;
   margin-bottom: -40px;
