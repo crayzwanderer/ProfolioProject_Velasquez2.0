@@ -50,8 +50,9 @@ h2 {
   color: orange;
   padding-top: 85px;
 }
+
 .envelope {
-  padding-top: 30px;
+  padding-top: 15px;
 }
 .border {
   margin: 5px;
@@ -118,6 +119,9 @@ i:hover {
 }
 h2.text-center {
   margin-top: 120px;
+}
+h2.text-center.lastname {
+  margin-top: 10px;
 }
 
 @media (max-width: 576px) {
