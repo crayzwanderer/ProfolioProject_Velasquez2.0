@@ -101,16 +101,13 @@ h2 {
   padding-top: 45px;
   padding-bottom: 25px;
 }
-.footeremail {
-  font-size: 35px;
-  margin-top: -60px;
-}
+
 div.social-links {
-  margin-top: -99px;
+  margin-top: -60px;
 }
 i {
   margin: 20px;
-  font-size: 45px;
+  font-size: 75px;
   color: #487b65;
 }
 i:hover {
