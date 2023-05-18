@@ -287,6 +287,16 @@ div.aboutsocial-links {
   div.container-fluid {
     width: 220px;
   }
+  div.creative-text {
+    display: flex;
+    font-size: 28px;
+    width: 800px;
+    margin-left: 255px;
+    margin-top: -130px;
+  }
+  .aboutsocial-links {
+    margin-top: 90px;
+  }
   row {
     display: block;
     margin: 0 auto;
