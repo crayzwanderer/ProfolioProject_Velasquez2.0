@@ -109,7 +109,7 @@ h2 {
 }
 
 div.social-links {
-  margin-top: -60px;
+  margin-top: -180px;
 }
 i {
   margin: 20px;
@@ -292,11 +292,21 @@ div.aboutsocial-links {
     font-size: 28px;
     width: 800px;
     margin-left: 255px;
-    margin-top: -130px;
+    margin-top: -50px;
   }
   .aboutsocial-links {
     margin-top: 90px;
   }
+  div.social-links {
+    margin-top: -60px;
+    max-width: 300px;
+  }
+  i {
+    margin: 10px;
+    font-size: 35px;
+    color: #487b65;
+  }
+
   row {
     display: block;
     margin: 0 auto;
