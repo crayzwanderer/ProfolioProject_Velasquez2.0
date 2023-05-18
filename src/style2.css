@@ -267,20 +267,18 @@ div.newlogoimg {
   }
   button {
     margin: 5px;
+    margin-left: -40px;
   }
   button.navbar-toggler {
     margin-top: 8px;
-    margin-left: -60px;
-  }
-  div.navbar-nav {
-    margin-left: -40px;
+    margin-left: -70px;
   }
 
   div.col {
     margin-top: -40px;
   }
   div.container-fluid {
-    width: 220px;
+    width: 70px;
   }
   div.creative-text {
     display: flex;
