@@ -154,8 +154,8 @@ div.newlogoimg {
   h1 {
     display: flex;
   }
-  .electroinics {
-    width: 20px;
+  img {
+    display: none;
   }
   .weatherimg {
     display: block;
