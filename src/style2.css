@@ -250,7 +250,7 @@ div.aboutsocial-links {
     max-width: 100%;
   }
   img.small-weather-app-pic.img-fluid {
-    width: 380px;
+    width: 20px;
     margin-top: 90px;
   }
 
@@ -273,8 +273,19 @@ div.aboutsocial-links {
   button {
     margin: 5px;
   }
+  button.navbar-toggler {
+    margin-top: 8px;
+    margin-left: -60px;
+  }
+  div.navbar-nav {
+    margin-left: -40px;
+  }
+
   div.col {
     margin-top: -40px;
+  }
+  div.container-fluid {
+    width: 220px;
   }
   row {
     display: block;
