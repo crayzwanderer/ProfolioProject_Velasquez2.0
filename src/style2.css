@@ -1,6 +1,9 @@
 body {
   overflow-x: hidden;
 }
+.indexbody {
+  overflow-y: hidden;
+}
 h2 {
   padding-bottom: 25px;
 }
@@ -126,8 +129,30 @@ h2.text-center.lastname {
 .newboxshadow {
   box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
   margin: 75px;
-  width: 1300px;
+}
+.box {
   height: 400px;
+  width: 400px;
+}
+
+.creative-text {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Arial", sans-serif;
+  font-size: 4rem;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  opacity: 0.5;
+  z-index: -1;
+}
+.index {
+  margin-top: 500px;
+}
+div.aboutsocial-links {
+  margin-top: -300px;
 }
 
 @media (max-width: 576px) {
