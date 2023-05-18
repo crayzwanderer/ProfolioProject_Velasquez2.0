@@ -72,6 +72,9 @@ h2 {
   display: block;
   margin: 0 auto;
 }
+.oatmealpic {
+  margin-top: -40px;
+}
 .oatmealimg {
   margin-top: 85px;
 }
@@ -120,17 +123,24 @@ h2.text-center {
 h2.text-center.lastname {
   margin-top: 10px;
 }
+.newboxshadow {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+  margin: 75px;
+  width: 1300px;
+  height: 400px;
+}
 
 @media (max-width: 576px) {
   body {
     overflow-x: hidden;
   }
   h1 {
-    font-size: 17px;
-    padding-top: 25px;
+    display: flex;
   }
   .weatherimg {
-    margin-top: 30px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 3px;
   }
   .navbar-toggler {
     color: orange;
@@ -176,6 +186,7 @@ h2.text-center.lastname {
     margin-top: -18px;
     width: 70px;
   }
+
   img.envelope {
     display: none;
   }
@@ -188,10 +199,8 @@ h2.text-center.lastname {
     width: 450px;
     height: 550px;
   }
-
-  p.text-start {
-    margin-left: -180px;
-    margin-top: 20px;
+  div.container.text-center.weatherappsection {
+    margin: 4px;
   }
   h2.text-center {
     margin-left: -180px;
@@ -210,12 +219,10 @@ h2.text-center.lastname {
   .work-logoimg {
     margin-left: 80px;
   }
-  h2.text-center {
-    margin-left: 20px;
-  }
+
   img.oatmealpic.img-fluid {
     margin-top: 35px;
-    width: 280px;
+    max-width: 100%;
   }
   img.small-weather-app-pic.img-fluid {
     width: 380px;
@@ -229,7 +236,29 @@ h2.text-center.lastname {
   a.text-decoration-none.footeremail {
     margin-top: 95px;
   }
-
+  .weatherappsection {
+    display: flex;
+  }
+  h2 {
+    display: none;
+  }
+  p {
+    display: none;
+  }
+  button {
+    margin: 5px;
+  }
+  div.col {
+    margin-top: -40px;
+  }
+  row {
+    display: block;
+    margin: 0 auto;
+  }
+  .packagefortwo {
+    display: block;
+    margin: 0 auto;
+  }
   .navbar-brand {
     color: green;
   }
