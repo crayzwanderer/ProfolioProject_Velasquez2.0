@@ -141,7 +141,7 @@ h2.text-center.lastname {
   margin-top: 550px;
 }
 div.social-links {
-  margin-top: -680px;
+  margin-top: -170px;
 }
 .worksocial-links {
   margin-top: -200px;
@@ -162,15 +162,14 @@ div.newlogoimg {
 }
 
 .creative-text {
-  position: static;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  margin-left: 10px;
+  margin-top: -90px;
+
   font-family: "Arial", sans-serif;
-  font-size: 30px;
+  font-size: 28px;
   font-weight: bold;
-  color: orange;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.842);
   opacity: 0.5;
   z-index: -1;
 }
@@ -189,7 +188,11 @@ div.creative-text {
   margin-top: 15rem;
 }
 .electronics {
+  display: flex;
   margin-top: -422px;
+}
+.overtext {
+  margin-top: 40px;
 }
 
 @media (max-width: 576px) {
@@ -337,8 +340,9 @@ div.creative-text {
   }
   div.social-links {
     margin-top: -60px;
-    max-width: 300px;
+    max-width: 900px;
   }
+
   i {
     margin: 10px;
     font-size: 35px;
