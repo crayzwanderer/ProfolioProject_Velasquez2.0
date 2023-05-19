@@ -404,7 +404,7 @@ div.creative-text {
 }
 @media (max-width: 768px) {
   .indexbody {
-    overflow-y: scroll;
+    overflow-y: hidden;
     overflow-x: hidden;
   }
 
