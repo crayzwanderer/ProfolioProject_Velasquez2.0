@@ -407,7 +407,7 @@ div.creative-text {
 }
 @media (max-width: 768px) {
   div.navbar-nav {
-    margin-left: 120px;
+    margin-left: 10px;
   }
   .electronics {
     height: 540px;
