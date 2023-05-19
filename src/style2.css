@@ -401,4 +401,9 @@ div.creative-text {
     height: 540px;
     margin-top: -20px;
   }
+  .overtext {
+    margin-top: -499px;
+    font-size: 22px;
+   margin-left:-5px;
+    
 }
