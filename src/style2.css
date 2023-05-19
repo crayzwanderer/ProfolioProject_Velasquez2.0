@@ -395,6 +395,13 @@ div.creative-text {
     height: 500px;
     margin-top: 600px;
   }
+  h2.overtext {
+    font-size: 23px;
+    text-align: center;
+  }
+  div.d-flex.justify-content-evenly.p-5 {
+    margin-top: -280px;
+  }
 }
 @media (max-width: 768px) {
   .electronics {
@@ -404,6 +411,6 @@ div.creative-text {
   .overtext {
     margin-top: -499px;
     font-size: 22px;
-   margin-left:-5px;
-    
+    margin-left: -5px;
+  }
 }
