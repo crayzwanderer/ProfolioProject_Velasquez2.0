@@ -216,14 +216,7 @@ div.creative-text {
     margin: 0 auto;
     margin-top: 3px;
   }
-  .navbar-toggler {
-    color: orange;
-    display: flex;
-    margin: 15;
-    margin-left: 360px;
-    margin-top: -60px;
-    padding: 10px;
-  }
+
   a.nav-link {
     margin-left: 40px;
     margin-top: -5px;
@@ -437,5 +430,9 @@ div.creative-text {
   }
   .container {
     height: 400px;
+  }
+  .button.navbar-togglar {
+    display: block;
+    margin: 0 auto;
   }
 }
