@@ -391,8 +391,8 @@ div.creative-text {
     display: flex;
   }
   .electronics {
-    height: 500px;
-    margin-top: 600px;
+    height: 540px;
+    width: 380px;
   }
   h2.overtext {
     font-size: 15px;
