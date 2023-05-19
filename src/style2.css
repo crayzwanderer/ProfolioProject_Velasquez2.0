@@ -45,6 +45,7 @@ h2 {
   margin-top: 80px;
   margin-bottom: 25px;
   box-shadow: 10px 5px 5px black;
+  padding-top: 35px;
 }
 #text {
   text-align: center;
@@ -86,6 +87,9 @@ h2 {
   margin: 0 auto;
 
   width: 878px;
+}
+.aboutsocial-links {
+  margin-top: -141px;
 }
 .aboutmepic {
   margin: 20px;
@@ -134,17 +138,58 @@ h2.text-center.lastname {
 }
 
 .index {
-  margin-top: 500px;
+  margin-top: 550px;
 }
 div.social-links {
-  margin-top: -700px;
+  margin-top: -680px;
+}
+.worksocial-links {
+  margin-top: -200px;
+}
+.card-body {
+  display: none;
 }
 
-.electroinics {
-  margin-top: -190px;
-}
 div.newlogoimg {
-  padding-bottom: 45px;
+  padding-bottom: 65px;
+}
+
+.ABIpad {
+  margin-left: 140px;
+}
+.weatherLaptop {
+  margin-left: 620px;
+}
+
+.creative-text {
+  position: static;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Arial", sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  color: orange;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  opacity: 0.5;
+  z-index: -1;
+}
+div.creative-text {
+  margin-top: 600pxpx;
+}
+.sectionone {
+  margin-top: 20px;
+  width: 1500px;
+  height: 540px;
+  box-shadow: #487b65 0px 5px 15px;
+  background-color: rgba(245, 214, 176, 0.034);
+}
+.cardbody {
+  height: 200px;
+  margin-top: 15rem;
+}
+.electronics {
+  margin-top: -422px;
 }
 
 @media (max-width: 576px) {
@@ -308,6 +353,12 @@ div.newlogoimg {
     display: block;
     margin: 0 auto;
   }
+  .sectionone {
+    text-align: center;
+    margin: 15px;
+    width: auto;
+  }
+
   .navbar-brand {
     color: green;
   }
@@ -335,5 +386,15 @@ div.newlogoimg {
 
   .logoimg {
     display: flex;
+  }
+  .electronics {
+    height: 500px;
+    margin-top: 600px;
+  }
+}
+@media (max-width: 768px) {
+  .electronics {
+    height: 540px;
+    margin-top: -20px;
   }
 }
