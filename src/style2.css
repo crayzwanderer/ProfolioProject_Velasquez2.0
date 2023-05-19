@@ -401,9 +401,6 @@ div.creative-text {
   div.d-flex.justify-content-evenly.p-5 {
     margin-top: -280px;
   }
-  .indexbody {
-    overflow-y: visible;
-  }
 }
 @media (max-width: 768px) {
   .indexbody {
