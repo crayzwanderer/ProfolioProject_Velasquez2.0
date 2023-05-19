@@ -1,6 +1,10 @@
 body {
   overflow-x: hidden;
 }
+.button.navbar-togglar {
+  display: block;
+  margin: 0 auto;
+}
 .indexbody {
   overflow-y: hidden;
 }
