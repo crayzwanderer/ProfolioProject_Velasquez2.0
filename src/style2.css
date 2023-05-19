@@ -394,11 +394,12 @@ div.creative-text {
     display: flex;
   }
   .electronics {
+    margin-left: 20px;
     height: 500px;
     margin-top: 600px;
   }
   h2.overtext {
-    font-size: 23px;
+    font-size: 15px;
     text-align: center;
   }
   div.d-flex.justify-content-evenly.p-5 {
