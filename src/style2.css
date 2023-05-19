@@ -384,7 +384,7 @@ div.creative-text {
     color: orangered;
   }
   button.navbar-toggler {
-    color: palegoldenrod;
+    color: #487b65;
   }
 
   .logoimg {
@@ -409,7 +409,7 @@ div.creative-text {
   }
 
   div.navbar-nav {
-    margin-left: -10px;
+    margin-left: -50px;
   }
   .electronics {
     height: 540px;
