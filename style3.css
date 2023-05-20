@@ -1,0 +1,25 @@
+.container {
+  text-align: center;
+  background-color: rgb(248, 244, 238);
+  box-shadow: #487b65 0px 5px 15px;
+  height: 900px;
+  width: auto;
+  margin: 15px;
+  margin-top: 25px;
+}
+.sectiononelogo {
+  padding-top: 20px;
+}
+.myname {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 25px;
+  color: #487b65;
+  font-weight: 300;
+  margin-top: -240px;
+}
+div.home-sectionone {
+  text-align: center;
+}
+.homeelectronics {
+  margin-top: -750px;
+}
