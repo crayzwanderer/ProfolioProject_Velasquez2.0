@@ -331,6 +331,9 @@ div.creative-text {
   div.container-fluid {
     width: 70px;
   }
+  div.container.sectionone.d-flex.justify-content-center {
+    margin-top: 30px;
+  }
   div.creative-text {
     display: flex;
     font-size: 28px;
