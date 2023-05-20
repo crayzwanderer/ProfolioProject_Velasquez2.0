@@ -104,6 +104,9 @@ h2 {
 .WineTimepic {
   margin: 25px;
 }
+img.WineTimepic2 {
+  padding-top: 20px;
+}
 .IphoneWeatherpic {
   padding-top: 23px;
   padding-bottom: 5px;
@@ -401,9 +404,10 @@ div.creative-text {
   }
   img.electronics.container.d-flex.justify-content-center {
     display: flex;
-    height: 380px;
-    width:360px;
-  
+    height: 390px;
+    width: 390px;
+    text-align: center;
+  }
 }
 @media (max-width: 768px) {
   .indexbody {
