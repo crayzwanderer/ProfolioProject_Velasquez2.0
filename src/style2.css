@@ -172,9 +172,9 @@ div.newlogoimg {
   font-family: "Arial", sans-serif;
   font-size: 28px;
   font-weight: bold;
-  color: white;
+  color: #487b65;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.842);
-  opacity: 0.5;
+  opacity: 0.8;
   z-index: -1;
 }
 div.creative-text {
