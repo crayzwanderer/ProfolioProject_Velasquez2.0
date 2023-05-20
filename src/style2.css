@@ -358,7 +358,7 @@ div.creative-text {
   }
   .sectionone {
     text-align: center;
-    margin: 15px;
+    margin: -30px;
     width: auto;
   }
 
@@ -401,6 +401,11 @@ div.creative-text {
   div.d-flex.justify-content-evenly.p-5 {
     margin-top: -280px;
   }
+  img.electronics.container.d-flex.justify-content-center {
+    height: 180px;
+    width:360px;
+    margin-top:35px;
+    margin-left:3px;
 }
 @media (max-width: 768px) {
   .indexbody {
